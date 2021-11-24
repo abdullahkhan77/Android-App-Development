@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/teal_200"
+
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="10dp"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="70dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/search"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="450dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/back"
+        ></ImageView>
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="600dp"
+        android:text="Services"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="90dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/white"
+
+        > </TextView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="750dp"
+        android:src="@drawable/mech12"
+        ></ImageView>
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="880dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/white"
+        android:text="Mechanics"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        > </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="600dp"
+        android:background="@color/white"
+
+        > </TextView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="750dp"
+        android:src="@drawable/electician1"
+        ></ImageView>
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="880dp"
+        android:layout_marginLeft="600dp"
+        android:background="@color/white"
+        android:text="Electrician"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        > </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="1050dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/white"
+
+        > </TextView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="1050dp"
+        android:src="@drawable/pl"
+        ></ImageView>
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1180dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/white"
+        android:text="Plumber"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        > </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="1050dp"
+        android:layout_marginLeft="600dp"
+        android:background="@color/white"
+
+        > </TextView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="1050dp"
+        android:src="@drawable/homedecore"
+        ></ImageView>
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1180dp"
+        android:layout_marginLeft="600dp"
+        android:background="@color/white"
+        android:text="HomeDecore"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        > </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="1550dp"
+        android:background="@color/teal_200"
+
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/home"
+            ></ImageView>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/feeed"
+            ></ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile"
+            ></ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_marginLeft="90dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logout"
+            ></ImageView>
+
+    </LinearLayout>
+</RelativeLayout>
