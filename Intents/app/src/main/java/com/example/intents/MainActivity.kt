@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         var btnExplict = findViewById<Button>(R.id.btnExplicit)
         var btnImplict = findViewById<Button>(R.id.btnImplicit)
         var btnEmail = findViewById<Button>(R.id.btnEmail)
+        var btnCapture = findViewById<Button>(R.id.btnCapture)
+
 
         val context = this
         btnExplict.setOnClickListener{
@@ -28,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra(Intent.EXTRA_TEXT, "Code Android")
             intent.type = "text/plain"
             startActivity(intent)
+        }
+        btnCapture.setOnClickListener{
+            capturePhoto()
         }
 
 
@@ -46,6 +51,12 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+    fun capturePhoto() {
+        val intent = Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA)
+        if (intent.resolveActivity(packageManager) != null) {
+            val REQUEST_IMAGE_CAPTURE =1
+            startActivityForResult(intent, REQUEST_IMAGE_CAPTURE)
+        }
+    }
 
 }
