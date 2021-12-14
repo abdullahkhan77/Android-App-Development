@@ -51,6 +51,15 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+var btnMap= findViewById<Button>(R.id.btnMap)
+        btnMap.setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW).apply {
+            data = Uri.parse("https://www.google.com/maps/@33.7826109,72.342941,15z")
+        }
+        if (intent.resolveActivity(packageManager) != null) {
+            startActivity(intent)
+        }
+        }
     fun capturePhoto() {
         val intent = Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA)
         if (intent.resolveActivity(packageManager) != null) {
